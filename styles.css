@@ -2348,7 +2348,7 @@ textarea.w-select {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  min-height: 900px;
+  min-height: 1000px;
   text-decoration: none;
   display: flex;
   position: relative;
@@ -3333,7 +3333,7 @@ textarea.w-select {
 
 .slide {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://cdn.prod.website-files.com/66517ccc690f42ee95de2412/665af65c25ec995f44edb22c_ABT0D6DDB82F823C714B2E5729F920BDA1009E50ABFB9F490D71544355C5C12BAF0.jpeg");
+    url("images/gallery/gallery\ 11.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -3700,10 +3700,15 @@ textarea.w-select {
 .slide-3,
 .slide-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://cdn.prod.website-files.com/66517ccc690f42ee95de2412/665af65c25ec995f44edb22c_ABT0D6DDB82F823C714B2E5729F920BDA1009E50ABFB9F490D71544355C5C12BAF0.jpeg");
+    url("images/gallery/gallery\ 13.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+}
+
+.slide-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/gallery/gallery\ 8.jpg");
 }
 
 .mobile-testi-slider {
@@ -4958,6 +4963,11 @@ a {
   font-weight: 600;
   line-height: 150%;
   text-decoration: none;
+}
+
+.team-member-image {
+  width: 150px !important;
+  height: 150px !important;
 }
 
 @media only screen and (max-width: 1000px) {
