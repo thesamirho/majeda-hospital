@@ -4922,6 +4922,10 @@ textarea.w-select {
 
 /* CUSTOM */
 
+.navbar-logo-left {
+  border-bottom: 1px solid #00000020;
+}
+
 .left-arrow,
 .w-slider-arrow-left {
   display: flex;
@@ -4954,4 +4958,22 @@ a {
   font-weight: 600;
   line-height: 150%;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .w-slider-arrow-left, .w-slider-arrow-right {
+    display: none;
+  }
+
+  .hero-content {
+    margin-top: -50%;
+  }
+
+  .w--nav-dropdown-open {
+    display: flex;
+  }
+
+  .card-2 {
+    margin-bottom: 16px;
+  }
 }
