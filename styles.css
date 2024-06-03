@@ -4412,7 +4412,7 @@ textarea.w-select {
 }
 
 .service-banner-slide-1 {
-  background-image: url("https://cdn.prod.website-files.com/66517ccc690f42ee95de2412/665af65c25ec995f44edb22c_ABT0D6DDB82F823C714B2E5729F920BDA1009E50ABFB9F490D71544355C5C12BAF0.jpeg");
+  background-image: url("images/services\ 1.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4424,10 +4424,14 @@ textarea.w-select {
 
 .service-banner-slide-2,
 .service-banner-slide-3 {
-  background-image: url("https://cdn.prod.website-files.com/66517ccc690f42ee95de2412/665af65c25ec995f44edb22c_ABT0D6DDB82F823C714B2E5729F920BDA1009E50ABFB9F490D71544355C5C12BAF0.jpeg");
+  background-image: url("images/services\ 2.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.service-banner-slide-3 {
+  background-image: url("images/services\ 3.jpg");
 }
 
 @media screen and (min-width: 1440px) {
