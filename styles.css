@@ -3620,7 +3620,7 @@ textarea.w-select {
 }
 
 .staff-banner-top-40 {
-  background-image: url("https://cdn.prod.website-files.com/66517ccc690f42ee95de2412/665aec923842dc64ab0e947b_Image.png");
+  background-image: url("images/banner.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4804,7 +4804,7 @@ textarea.w-select {
   }
 
   .staff-banner-top-40 {
-    background-image: url("https://cdn.prod.website-files.com/66517ccc690f42ee95de2412/665bf00361131c7af8f47ec0_banner%20sm.jpg");
+    background-image: url("images/banner\ sm.jpg");
     margin-top: -80px;
     margin-bottom: -60px;
   }
