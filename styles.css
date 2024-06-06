@@ -4990,4 +4990,40 @@ a {
   .card-2 {
     margin-bottom: 16px;
   }
+
+  .hero-no-image {
+    min-height: 700px !important;
+  }
+  
+  .slider-small-container {
+    height: 770px !important;    
+  }
+
+  .mv {
+    flex-direction: column;
+  }
+
+  .vertical-border {
+    margin-top: -60px; 
+    padding: 60px;
+    border-top: 1px solid var(--secondary);
+    border-right: 0 !important;
+    /* border: none !important; */
+  }
+
+  .mobile-hidden {
+    display: none !important;
+  }
+
+  .column-9 {
+    margin-top: 16px !important;
+  }
+
+  .column-10 {
+    height: 400px !important;
+  }
+  
+  .hero-heading-right-2 {
+    padding: 80px 24px !important;    
+  }
 }
