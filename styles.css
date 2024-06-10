@@ -4975,6 +4975,10 @@ a {
   height: 150px !important;
 }
 
+.image-4-timing {
+  object-fit: contain;
+}
+
 @media only screen and (max-width: 1000px) {
   .final-logo-transparent-1 {
     width: 70px;
@@ -5044,11 +5048,19 @@ a {
   }
   
   .hero-no-image-2 {
-    margin-bottom: -40px !important;
+    margin-bottom: -10px !important;
   }
 
   /* .staff-banner-top-40 {
     margin-top: 0 !important;
     margin-bottom: -40px;
   } */
+
+  .column-8 {
+    grid-row-gap: 2px !important;
+  }
+
+  .image-4-timing {
+    height: 250px;
+  }
 }
